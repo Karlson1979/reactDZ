@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Аляшко Александрович",
+    "email": "example@example.com",
+    "background": "Физико-математическое и юридическое образование",
+    "physical_address": "Киев, Украина",
+    "status": "онлайн"
+  },
+  {
+    "id": 2,
+    "name": "Иван Петров",
+    "email": "ivan.petrov@email.com",
+    "background": "Опыт в разработке веб-приложений",
+    "physical_address": "Москва, Россия",
+    "status": "офлайн"
+  },
+  {
+    "id": 3,
+    "name": "Мария Сидорова",
+    "email": "maria.sidorova@email.com",
+    "background": "Дизайнер UX/UI",
+    "physical_address": "Минск, Беларусь",
+    "status": "онлайн"
+  },
+  {
+    "id": 4,
+    "name": "Алексей Смирнов",
+    "email": "alexey.smirnov@email.com",
+    "background": "Backend-разработчик, Python, Django",
+    "physical_address": "Санкт-Петербург, Россия",
+    "status": "офлайн"
+  },
+  {
+    "id": 5,
+    "name": "Елена Козлова",
+    "email": "elena.kozlova@email.com",
+    "background": "Фронтенд-разработчик, React, Vue",
+    "physical_address": "Киев, Украина",
+    "status": "онлайн"
+  },
+  {
+    "id": 6,
+    "name": "Дмитрий Иванов",
+    "email": "dmitry.ivanov@email.com",
+    "background": "Full-stack разработчик, Node.js, React",
+    "physical_address": "Одесса, Украина",
+    "status": "офлайн"
+  },
+  {
+    "id": 7,
+    "name": "Анна Васильева",
+    "email": "anna.vasilyeva@email.com",
+    "background": "QA-инженер, автоматизация тестирования",
+    "physical_address": "Варшава, Польша",
+    "status": "онлайн"
+  },
+  {
+    "id": 8,
+    "name": "Максим Орлов",
+    "email": "maxim.orlov@email.com",
+    "background": "DevOps-инженер, Kubernetes, Docker",
+    "physical_address": "Прага, Чехия",
+    "status": "офлайн"
+  },
+  {
+    "id": 9,
+    "name": "Светлана Миронова",
+    "email": "svetlana.mironova@email.com",
+    "background": "Продуктовый менеджер, IT-стартапы",
+    "physical_address": "Берлин, Германия",
+    "status": "онлайн"
+  },
+  {
+    "id": 10,
+    "name": "Константин Фёдоров",
+    "email": "konstantin.fedorov@email.com",
+    "background": "Data Scientist, машинное обучение",
+    "physical_address": "Амстердам, Нидерланды",
+    "status": "офлайн"
+  }
+]

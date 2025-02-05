@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "color": "Черный",
+    "engine": "2.5L I4",
+    "fuel_type": "Бензин",
+    "transmission": "Автомат",
+    "drive_type": "Передний",
+    "price": 32000,
+    "status": "в наличии"
+  },
+  {
+    "id": 2,
+    "brand": "BMW",
+    "model": "X5",
+    "year": 2023,
+    "color": "Белый",
+    "engine": "3.0L I6 Turbo",
+    "fuel_type": "Бензин",
+    "transmission": "Автомат",
+    "drive_type": "Полный",
+    "price": 65000,
+    "status": "в наличии"
+  },
+  {
+    "id": 3,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2021,
+    "color": "Серый",
+    "engine": "2.0L I4 Turbo",
+    "fuel_type": "Бензин",
+    "transmission": "Автомат",
+    "drive_type": "Задний",
+    "price": 55000,
+    "status": "нет в наличии"
+  },
+  {
+    "id": 4,
+    "brand": "Audi",
+    "model": "A6",
+    "year": 2022,
+    "color": "Синий",
+    "engine": "2.0L I4 Turbo",
+    "fuel_type": "Дизель",
+    "transmission": "Автомат",
+    "drive_type": "Полный",
+    "price": 48000,
+    "status": "в наличии"
+  },
+  {
+    "id": 5,
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "color": "Красный",
+    "engine": "Электро",
+    "fuel_type": "Электричество",
+    "transmission": "Автомат",
+    "drive_type": "Полный",
+    "price": 45000,
+    "status": "в наличии"
+  }
+]
