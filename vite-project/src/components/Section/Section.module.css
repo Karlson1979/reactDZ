@@ -1,0 +1,11 @@
+.section {
+  text-align: center;
+  padding: 10px;
+  background-color: gray;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}

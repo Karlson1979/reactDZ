@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Смартфон Apple iPhone 14",
+    "category": "Электроника",
+    "brand": "Apple",
+    "price": 999,
+    "currency": "USD",
+    "stock": 25,
+    "rating": 4.8,
+    "description": "Флагманский смартфон с OLED-экраном, мощным процессором и передовой камерой.",
+    "status": "no"
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук ASUS ROG Strix G15",
+    "category": "Компьютеры",
+    "brand": "ASUS",
+    "price": 1500,
+    "currency": "USD",
+    "stock": 10,
+    "rating": 4.7,
+    "description": "Игровой ноутбук с процессором AMD Ryzen 9 и видеокартой RTX 3070.",
+    "status": "no"
+  },
+  {
+    "id": 3,
+    "name": "Беспроводные наушники Sony WH-1000XM5",
+    "category": "Аксессуары",
+    "brand": "Sony",
+    "price": 399,
+    "currency": "USD",
+    "stock": 30,
+    "rating": 4.9,
+    "description": "Наушники с активным шумоподавлением и высоким качеством звука.",
+    "status": "в наличии"
+  },
+  {
+    "id": 4,
+    "name": "Игровая консоль PlayStation 5",
+    "category": "Игры и консоли",
+    "brand": "Sony",
+    "price": 499,
+    "currency": "USD",
+    "stock": 5,
+    "rating": 4.9,
+    "description": "Консоль нового поколения с поддержкой 4K-гейминга и высокой производительностью.",
+    "status": "ограниченный запас"
+  },
+  {
+    "id": 5,
+    "name": "Смарт-часы Samsung Galaxy Watch 5",
+    "category": "Гаджеты",
+    "brand": "Samsung",
+    "price": 299,
+    "currency": "USD",
+    "stock": 15,
+    "rating": 4.6,
+    "description": "Умные часы с AMOLED-дисплеем, датчиком ЭКГ и фитнес-функциями.",
+    "status": "в наличии"
+  }
+]

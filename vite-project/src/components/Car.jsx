@@ -1,15 +1,5 @@
 import React from "react";
-//  "id": 5,
-//     "brand": "Tesla",
-//     "model": "Model 3",
-//     "year": 2023,
-//     "color": "Красный",
-//     "engine": "Электро",
-//     "fuel_type": "Электричество",
-//     "transmission": "Автомат",
-//     "drive_type": "Полный",
-//     "price": 45000,
-//     "status": "в наличии"
+import css from "./Product/Product.module.css";
 const Car = ({
   brand,
   model,
@@ -23,7 +13,7 @@ const Car = ({
   status,
 }) => {
   return (
-    <div>
+    <div className={css.children}>
       <p>brand:{brand}</p>
       <p>model:{model}</p>
       <p>year:{year}</p>
