@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./Product/Product.module.css";
+import css from "../Product/Product.module.css";
 const Car = ({
   brand,
   model,
