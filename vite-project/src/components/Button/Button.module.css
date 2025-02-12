@@ -1,0 +1,12 @@
+.btn {
+  background: #4374f2;
+  color: aliceblue;
+  cursor: pointer;
+  padding: 5px;
+}
+.btn.success {
+  background: #39e377;
+}
+.btn.error {
+  background: red;
+}

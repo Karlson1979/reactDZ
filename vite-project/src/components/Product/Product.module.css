@@ -2,5 +2,5 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  max-width: 250px;
+  min-width: auto;
 }

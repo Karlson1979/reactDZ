@@ -6,9 +6,33 @@ import Car from "./components/Car/Car";
 import carData from "./carData.json";
 import productData from "./productData.json";
 import Product from "./components/Product/Product";
+import Button from "./components/Button/Button";
+import { BiSolidError } from "react-icons/bi";
+import { FaDiagramSuccessor } from "react-icons/fa6";
+import { HiCursorClick } from "react-icons/hi";
+import Account from "./components/Account/Account";
+import userData from "../src/userData.json";
 const App = () => {
   return (
     <div>
+      <Account
+        name={userData.name}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+      {/* <Section>
+        <Button>
+          Click me <HiCursorClick size={24} />
+        </Button>
+        <Button success>
+          Success <FaDiagramSuccessor size={24} />
+        </Button>
+        <Button error>
+          Error <BiSolidError size={24} />
+        </Button>
+      </Section>
       <Section title={"Profile"}>
         {profileData.map((profile) => (
           <Profile
@@ -48,7 +72,7 @@ const App = () => {
             price={product.price}
           />
         ))}
-      </Section>
+      </Section> */}
     </div>
   );
 };

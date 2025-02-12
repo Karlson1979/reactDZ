@@ -1,0 +1,22 @@
+.main {
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+.avatar {
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.name {
+  font-size: 60px;
+}
+.text {
+  font-size: 30px;
+}
