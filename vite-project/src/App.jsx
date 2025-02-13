@@ -12,9 +12,16 @@ import { FaDiagramSuccessor } from "react-icons/fa6";
 import { HiCursorClick } from "react-icons/hi";
 import Account from "./components/Account/Account";
 import userData from "../src/userData.json";
+import FriendList from "./components/FriendList/FriendList";
+import friendData from "./components/FriendList/friendData.json";
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
+import itemsData from "./components/TransactionHistory/itemsData.json";
 const App = () => {
   return (
     <div>
+      <TransactionHistory items={itemsData} />
+      <FriendList friends={friendData} />
+
       <Account
         name={userData.name}
         tag={userData.tag}
@@ -22,6 +29,7 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+
       {/* <Section>
         <Button>
           Click me <HiCursorClick size={24} />
