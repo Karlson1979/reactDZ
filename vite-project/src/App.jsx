@@ -16,10 +16,17 @@ import FriendList from "./components/FriendList/FriendList";
 import friendData from "./components/FriendList/friendData.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import itemsData from "./components/TransactionHistory/itemsData.json";
+
 const App = () => {
+  const handleClick = (massage) => {
+    console.log(massage);
+  };
+  const clickBtn = (brand, model) => {
+    console.log(brand, model);
+  };
   return (
     <div>
-      <TransactionHistory items={itemsData} />
+      {/* <TransactionHistory items={itemsData} />
       <FriendList friends={friendData} />
 
       <Account
@@ -28,16 +35,15 @@ const App = () => {
         location={userData.location}
         image={userData.avatar}
         stats={userData.stats}
-      />
-
-      {/* <Section>
-        <Button>
+      /> */}
+      <Section>
+        <Button onClick={() => handleClick("click 1")}>
           Click me <HiCursorClick size={24} />
         </Button>
-        <Button success>
+        <Button success onClick={() => handleClick("click 2")}>
           Success <FaDiagramSuccessor size={24} />
         </Button>
-        <Button error>
+        <Button error onClick={() => handleClick("click 3")}>
           Error <BiSolidError size={24} />
         </Button>
       </Section>
@@ -67,6 +73,7 @@ const App = () => {
             drive_type={car.drive_type}
             price={car.price}
             status={car.status}
+            clickBtn={clickBtn}
           />
         ))}
       </Section>
@@ -78,9 +85,10 @@ const App = () => {
             category={product.category}
             brand={product.brand}
             price={product.price}
+            status={product.status}
           />
         ))}
-      </Section> */}
+      </Section>
     </div>
   );
 };

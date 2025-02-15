@@ -1,5 +1,6 @@
 import React from "react";
 import css from "../Product/Product.module.css";
+import style from "../Button/Button.module.css";
 const Car = ({
   brand,
   model,
@@ -11,6 +12,7 @@ const Car = ({
   drive_type,
   price,
   status,
+  clickBtn,
 }) => {
   return (
     <div className={css.children}>
@@ -23,7 +25,14 @@ const Car = ({
       <p>transmission:{transmission}</p>
       <p>drive_type:{drive_type}</p>
       <p>price:{price}</p>
-      <p>status:{status}</p>
+      <p>status:{status === "в наличии" ? "✅" : "❌"}</p>
+      <button
+        className={style.btn}
+        type="button"
+        onClick={() => clickBtn(brand, model)}
+      >
+        BRAND
+      </button>
     </div>
   );
 };

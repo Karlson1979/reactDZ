@@ -18,8 +18,7 @@ const Product = ({ name, category, brand, price, status }) => {
         <b>Price:</b> ${price}
       </p>
       <p>
-        <b>Status:</b>
-        {status === "no" ? "❌ Нет в наличии" : "✅ В наличии"}
+        <b>Status:</b> {status === "нет" ? "❌" : "✅"}
       </p>
     </div>
   );
