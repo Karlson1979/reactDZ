@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import profileData from "./profile.json";
 import Profile from "./components/Profile/Profile";
 import Section from "./components/Section/Section";
@@ -16,6 +16,9 @@ import FriendList from "./components/FriendList/FriendList";
 import friendData from "./components/FriendList/friendData.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import itemsData from "./components/TransactionHistory/itemsData.json";
+import { Counter } from "./components/Counter";
+import Bar from "./components/Bar/Bar";
+import Modal from "./components/Modal/Modal";
 
 const App = () => {
   const handleClick = (massage) => {
@@ -24,8 +27,13 @@ const App = () => {
   const clickBtn = (brand, model) => {
     console.log(brand, model);
   };
+
   return (
     <div>
+      <Section>
+        <Bar />
+      </Section>
+
       {/* <TransactionHistory items={itemsData} />
       <FriendList friends={friendData} />
 
@@ -36,6 +44,7 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       /> */}
+      <Counter />
       <Section>
         <Button onClick={() => handleClick("click 1")}>
           Click me <HiCursorClick size={24} />
