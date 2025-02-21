@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import BarStats from "./BarStats";
 import BarBtn from "./BarBtn";
 import Modal from "../Modal/Modal";
+import { Counter } from "../Counter";
 
-const Bar = () => {
+const Bar = ({ count }) => {
   const [bottles, setBottles] = useState({
     beer: 0,
     wine: 0,
