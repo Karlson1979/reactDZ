@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import profileData from "./profile.json";
 import Profile from "./components/Profile/Profile";
 import Section from "./components/Section/Section";
@@ -10,15 +10,6 @@ import Button from "./components/Button/Button";
 import { BiSolidError } from "react-icons/bi";
 import { FaDiagramSuccessor } from "react-icons/fa6";
 import { HiCursorClick } from "react-icons/hi";
-import Account from "./components/Account/Account";
-import userData from "../src/userData.json";
-import FriendList from "./components/FriendList/FriendList";
-import friendData from "./components/FriendList/friendData.json";
-import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
-import itemsData from "./components/TransactionHistory/itemsData.json";
-import { Counter } from "./components/Counter";
-import Bar from "./components/Bar/Bar";
-import Modal from "./components/Modal/Modal";
 
 const App = () => {
   const handleClick = (massage) => {
@@ -30,21 +21,8 @@ const App = () => {
 
   return (
     <div>
-      <Section>
-        <Bar />
-      </Section>
+      <Section></Section>
 
-      {/* <TransactionHistory items={itemsData} />
-      <FriendList friends={friendData} />
-
-      <Account
-        name={userData.name}
-        tag={userData.tag}
-        location={userData.location}
-        image={userData.avatar}
-        stats={userData.stats}
-      /> */}
-      <Counter />
       <Section>
         <Button onClick={() => handleClick("click 1")}>
           Click me <HiCursorClick size={24} />
