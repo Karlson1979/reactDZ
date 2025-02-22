@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import css from "./Modal.module.css";
+import { IoIosCloseCircle } from "react-icons/io";
 
 const Modal = ({ isClose }) => {
   const [count, setCount] = useState(() => {
@@ -35,7 +36,7 @@ const Modal = ({ isClose }) => {
     <div className={css.backdrop} onClick={handleBackdropClick}>
       <div className={css.modal}>
         <button type="button" onClick={isClose} className={css.closeModalBtn}>
-          ❌
+          <IoIosCloseCircle />
         </button>
         <h3 className={css.title}>Modal</h3>
         <p className={css.text}>
