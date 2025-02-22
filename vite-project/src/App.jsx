@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import profileData from "./profile.json";
 import Profile from "./components/Profile/Profile";
 import Section from "./components/Section/Section";
@@ -10,19 +10,13 @@ import Button from "./components/Button/Button";
 import { BiSolidError } from "react-icons/bi";
 import { FaDiagramSuccessor } from "react-icons/fa6";
 import { HiCursorClick } from "react-icons/hi";
+import ProfileForm from "./components/profileForm/ProfileForm";
 
 const App = () => {
-  const handleClick = (massage) => {
-    console.log(massage);
-  };
-  const clickBtn = (brand, model) => {
-    console.log(brand, model);
-  };
+  const [users, setUsers] = useState(profileData);
 
   return (
     <div>
-      <Section></Section>
-
       <Section>
         <Button onClick={() => handleClick("click 1")}>
           Click me <HiCursorClick size={24} />
@@ -34,8 +28,12 @@ const App = () => {
           Error <BiSolidError size={24} />
         </Button>
       </Section>
+      <Section>
+        <ProfileForm />
+      </Section>
+
       <Section title={"Profile"}>
-        {profileData.map((profile) => (
+        {users.map((profile) => (
           <Profile
             key={profile.id}
             name={profile.name}
@@ -60,7 +58,6 @@ const App = () => {
             drive_type={car.drive_type}
             price={car.price}
             status={car.status}
-            clickBtn={clickBtn}
           />
         ))}
       </Section>
